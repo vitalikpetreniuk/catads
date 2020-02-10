@@ -19,7 +19,7 @@ function sendAjaxForm(result_form, ajax_form) {
     fd.append('month', month);
     fd.append('monthIndex', monthIndex);
     jQuery.ajax({
-        url:     '/catads/core/core.php', //url страницы (action_ajax_form.php)
+        url:     '../core/core.php', //url страницы
         type:     "POST", //метод отправки
         data: fd,  // Сеарилизуем объект
         processData: false,
