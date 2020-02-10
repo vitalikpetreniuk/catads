@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="favicon" href="favicon.ico">
+    <title>Catads данные</title>
+</head>
+<body>
+<div id="rec156955469" class="r t-rec" style=" " data-animationappear="off" data-record-type="257">
+	<!-- T228 -->
+	<div id="nav156955469marker"></div>
+	<div class="t228__mobile">
+		<div class="t228__mobile_container">
+			<div class="t228__leftcontainer"> <img src="logo_site.png" class="t228__imglogo t228__imglogomobile" imgfield="img" style="max-width: 120px;width: 120px; height: auto; display: block;" alt=" "> </div>
+			<!--<div class="t228__burger"> <span></span> <span></span> <span></span> <span></span> </div>-->
+		</div>
+	</div>
+	<div id="nav156955469" class="t228 t228__hidden t228__positionabsolute " style=" height:85px; " data-bgcolor-hex="" data-bgcolor-rgba="" data-navmarker="nav156955469marker" data-appearoffset="" data-bgopacity-two="" data-menushadow="" data-bgopacity="0.0" data-menu-items-align="center" data-menu="yes" data-bgcolor-setbyscript="yes">
+		<div class="t228__maincontainer t228__c12collumns" style="height:85px;">
+			<div class="t228__padding40px"></div>
+			<div class="t228__leftside" style="min-width: 262px;">
+				<div class="t228__leftcontainer"> <img src="logo_site.png" class="t228__imglogo t228__imglogomobile" imgfield="img" style="max-width: 120px;width: 120px; height: auto; display: block;" alt=" "> </div>
+			</div>
+			<div class="t228__centerside ">
+				<div class="t228__centercontainer">
+					<ul class="t228__list">
+						<li class="t228__list_item"><a class="t-menu__link-item" href="#services" data-menu-submenu-hook="" style="color:#000000;font-size:18px;font-weight:600;padding:0 5px;" data-menu-item-number="1">Преимущества</a> </li>
+						<li class="t228__list_item"><a class="t-menu__link-item" href="#team" data-menu-submenu-hook="" style="color:#000000;font-size:18px;font-weight:600;padding:0 5px;" data-menu-item-number="2">Форматы рекламы</a> </li>
+						<li class="t228__list_item"><a class="t-menu__link-item" href="#reviews" data-menu-submenu-hook="" style="color:#000000;font-size:18px;font-weight:600;padding:0 5px;" data-menu-item-number="3">Кейсы</a> </li>
+					</ul>
+				</div>
+			</div>
+			<div class="t228__rightside" style="min-width: 262px;">
+				<div class="t228__rightcontainer">
+					<div class="t228__right_descr" style="font-size:18px;font-weight:600;">
+						<div style="line-height:24px;text-align:left;" data-customstyle="yes">
+                            <div class="t677__btn-wrapper">
+                                <a href="https://catads.com.ua/" target="" class="t-btn " style="color:#ffffff;background-color:#ff542e;border-radius:50px; -moz-border-radius:50px; -webkit-border-radius:50px;"><table style="width:100%; height:100%;">
+                                <tbody><tr><td>Назад на сайт</td></tr></tbody></table></a> </div>
+                            							<br>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="t228__padding40px"></div>
+		</div>
+	</div>
+</div>
+<div class="main">
+    <div class="container">
+        <div class="main-content">
+            <h2 class="t-title t-title_xxs">Данные о нашей работе</h2>
+            <div class="selects-block">
+               <form name="getdate" id="form_date" method="post">
+                    <div class="year-block">
+                         <label for="year">Год</label>
+                         <select name="year" id="year">
+                              <option selected value="2020">2020</option>
+                         </select>
+                    </div>
+                    <div class="month-block">
+                        <label for="month">Месяц</label>
+                        <select name="month" size="1" id="month">
+                            <!--<option value="" selected>- -</option>-->
+                            <option value="Январь">Январь</option>
+                            <option value="Февраль">Февраль</option>
+                            <option value="Март">Март</option>
+                            <option value="Апрель">Апрель</option>
+                            <option value="Май">Май</option>
+                            <option value="Июнь">Июнь</option>
+                            <option value="Июль">Июль</option>
+                            <option value="Август">Август</option>
+                            <option value="Сентябрь">Сентябрь</option>
+                            <option value="Октябрь">Октябрь</option>
+                            <option value="Ноябрь">Ноябрь</option>
+                            <option value="Декабрь">Декабрь</option>
+                        </select>
+                    </div>
+                    <input type="submit" id="form_submit" class="form_submit hover_btn" value="Получить данные">
+               </form>
+            </div>
+            <div class="table">
+
+             <div class="empty-data-error">
+                 <h2>Данные за эту дату отсутствуют!</h2>
+             </div>
+             </div>
+
+            <div class="download_btns">
+                <a class="download_csv hover_btn" id="download_csv">
+                    Скачать в csv
+                </a>
+                <a class="download_xls hover_btn" onclick="saveFile()" id="download_xls">
+                    Скачать в xls
+                 </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="rec156955488" class="r t-rec t-rec_pt_30 t-rec_pb_60" style="padding-top:30px;padding-bottom:60px;background-color:#0d0d0d; " data-record-type="56" data-bg-color="#0d0d0d"><!-- T046 --><div class="t046"><div class="t-container"><div class="t-col t-col_6 t-prefix_3"><div class="t046__text t-text t-text_xs" style="" field="text"><div style="color:#9d9d9d;" data-customstyle="yes">CATADS LTD, UKRAINE, 2020<br></div></div></div></div></div></div>
+<script src="js/alasql.min.js"></script>
+<script src="js/xlsx.core.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
